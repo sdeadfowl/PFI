@@ -1,0 +1,71 @@
+/*James Kalekas PFI.css*/
+#statistique_des_zombies{
+    float: left;
+}
+@media screen and (max-height: 1080px) and (max-width:800px) {
+    #statistique_des_zombies{
+      display: none;
+    }
+}
+@media screen and (max-height: 1080px) and (max-width:900px) {
+    .prochaine_page{
+      position:absolute;
+      top: 1000px;
+      left: 700px;
+    }
+}
+body{
+    background-image:url("4L2MLiPnTT5hMHbCqgyjAc2.jpg");
+    margin: 20px 50px;
+}
+.prochaine_page{
+    text-align: right;
+    position:absolute;
+    bottom: 20px;
+    right: 50px;
+    font-size: 20px;
+    color: greenyellow;
+}
+.prochaine_page:hover{
+    cursor: crosshair;
+}
+.prochaine_page:visited{
+    color: blueviolet;
+}
+.texte{
+    font-size: large;
+    color: aqua;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.sous-titre{
+    color: skyblue;
+    margin-bottom: 50px !important;
+}
+table{
+    float:left;
+    margin-right: 20px;
+}
+tr:nth-child(even){
+    color: rgb(221, 161, 236);
+    margin-left: 20px;
+}
+tr:nth-child(odd){
+    color: rgb(176, 219, 248);
+    
+}
+.liste{
+    font-size:large;
+    color:aquamarine;
+}
+td{
+    font-weight: bolder;
+}
+.lien{
+    color: rgb(170, 11, 11);
+    cursor: grabbing;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    filter: contrast(250%);
+}
